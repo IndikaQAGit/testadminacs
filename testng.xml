@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QATestProperty Capsule">
+    <test name="TC_01">
+        <classes>
+            <class name="com.propertycapsule.Launch"/>
+        </classes>
+    </test>
+    <test name="TC_02">
+        <classes>
+            <class name="com.propertycapsule.TourBook"/>
+        </classes>
+    </test>
+    <test name="TC_03">
+        <classes>
+            <class name="com.propertycapsule.EnterpriseLogin"/>
+        </classes>
+    </test>
+    <test name="TC_04">
+        <classes>
+            <class name="com.propertycapsule.DealMaker"/>
+        </classes>
+    </test>
+</suite>
